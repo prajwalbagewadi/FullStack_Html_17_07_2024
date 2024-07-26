@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--
+The lang Attribute
+You should always include the lang attribute inside the <html> tag, to declare the language of the Web page.
+This is meant to assist search engines and browsers.
+The following example specifies English as the language:
+-->
+<html lang="en">
+<!--The lang Attribute You should always include the lang attribute inside the <html> tag, to declare the language of the Web page.-->
+    <head>
+        <meta name="viewport" value="width=device-width,inital-scale=1.0"/>
+        <title>Attributes in html</title>
+    </head>
+    <body>
+        <p>
+            All HTML elements can have attributes<br/>
+            Attributes provide additional information about elements<br/>
+            Attributes are always specified in the start tag<br/>
+            Attributes usually come in name/value pairs like: name="value"<br/>
+        </p>
+        <p>
+            href Attribute <xmp><a></a></xmp> Anchor tag
+            <!--
+            The <a> tag defines a hyperlink. The href attribute specifies the URL of the page the link goes to:
+            Example
+            <a href="https://www.google.com">Search Engine</a>
+            -->
+            <a href="https://www.google.com">Google</a>
+        </p>
+        <p>
+            The src Attribute <xmp><img></xmp> image tag
+            <!--
+            The <img> tag is used to embed an image in an HTML page. The src attribute specifies the path to the image
+            to be displayed:
+            Example
+            <img src="imag1.jpg">
+
+            The width and height Attributes
+            The <img> tag should also contain the width and height attributes, which specifies the width and height of
+            the image (in pixels):
+            Example
+            <img src="imag1.jpg" width="450" height="500">
+
+            The alt Attribute
+            The required alt attribute for the <img> tag specifies an alternate text for an image, if the image for some
+            reason cannot be displayed. This can be due to slow connection, or an error in the src attribute, or if the user
+            uses a screen reader.
+            Example
+            <img src="imag1.jpg" alt="My Image">
+            -->
+            <img src="C:\Users\bagew\Downloads\FullStackHtml\AttributesInHtml\aventador_svj_roadster_front_dynamic_02.jpg"/>
+            <br/>
+            <img src="C:\Users\bagew\Downloads\FullStackHtml\AttributesInHtml\aventador_svj_roadster_front_dynamic_02.jpg" width="750" height="550"/>
+            <br/>
+            <img src="error.jpg" width="750" height="550" alt="Car Image."/>
+        </p>
+        <p>
+            The style Attribute
+            <!--
+            The style Attribute
+            The style attribute is used to add styles to an element, such as color, font, size, and more.
+            Example
+            <p style="color:blue;">This is a blue paragraph.</p>
+            -->   
+            <h2 style="border:1px;background-color:crimson;font-family:Floral Capitals;font-size:250px;color:black">KAJAL</h2>
+            <br/>
+            <h2 style="border:1px;background-color:crimson;font-family:Rockybilly ;font-size:150px;color:black">KAJAL</h2>
+        </p>
+        <p>
+            The title attribute
+            <!--
+            The title attribute defines some extra information about an element.
+            The value of the title attribute will be displayed as a tooltip when you mouse over the element:
+            Example<p title="I'm a tooltip">This is a paragraph.</p>
+            -->
+            <p title="I LOVE YOU..">msg</p>
+        </p>
+    </body>
+</html>
