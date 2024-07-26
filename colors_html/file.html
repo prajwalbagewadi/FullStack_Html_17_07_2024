@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width,inital-scale=1.0"/>
+        <title>Colors in html</title>
+    </head>
+    <body bgcolor="Black" style="color:white;">
+        <p>color of text.</p>
+        <!--
+        The color name depicts the specific name for the HTML
+        color. There are 140 color names supported.
+        -->
+        <p style="color: white;">color name method:</p>
+        <p style="background-color:purple;color:white">color of text.</p>
+        <!--
+        The RGB value defines HTML color by mixing red, green, and blue values. 
+        The first number describes the red color input, 
+        the second – the green color input,
+        and the third one – the blue color input.
+        The value of each color can vary from 0 to 255. 
+        For example, to get the red we would have to use RGB(255,0,171)
+        -->
+        <p style="color: white;">rgb method:</p>
+        <p style="background-color:rgb(40,20,180);color:rgb(255,255,255)">color of text.</p>
+        <!--
+        RGBA values are very similar, they have one more value. 
+        The additional fourth value A stands for alpha and represents the opacity.
+        It can be defined in a number from 0 (not transparent)
+        to 1 (completely transparent):
+        -->
+        <p style="color: white;">rgba method:</p>
+        <p style="background-color:rgba(90,10,20,0.4);color:rgb(255,255,255)">color of text.</p>
+        <!--
+        HEX color value works pretty similarly to RGB .
+        To describe the intensity of the color using HEX, the code
+        contains both numbers from 0 to 9 and letters from A to F. The
+        first two symbols determine red intensity, the two in the middle -
+        green intensity, and the last two - blue intensity.
+        -->
+        <p style="color: white;">Hex method:</p>
+        <p style="background-color:#aa78aa;color:#aaaaaa">color of text.</p>
+        <!--
+        In HTML, colors can also be defined in HSL values. HSL stands
+        for hue, saturation and lightness:
+        Hue is defined in degrees from 0 to 360. On a color wheel, red is
+        around 0/360, green is at 120 and blue is at 240.
+        Saturation is defined in percentages from 0 (black and white) to 100 (full color).
+        Lightness is defined in percentages from 0 (black) to 100 (white).
+        Example: To color the background in HTML blue, you could use hsl(240, 100%, 50%)
+        -->
+        <p style="color: white;">Hsl method:</p>
+        <p style="background-color:hsl(175,55%,75%);color:hsl(360,65%,75%)">color of text.</p>
+    </body>
+</html>
